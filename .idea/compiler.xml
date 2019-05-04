@@ -17,6 +17,7 @@
         <module name="microservicecloud-provider-dept-8001" />
         <module name="microservicecloud-provider-dept-8002" />
         <module name="microservicecloud-provider-dept-8003" />
+        <module name="microservicecloud-provider-dept-hystrix-8001" />
       </profile>
       <profile name="Annotation profile for microservicecloud-provider-dept-8001 (1)" enabled="true">
         <sourceOutputDir name="../microservicecloud-provider-dept-8001/target/generated-sources/annotations" />
@@ -44,6 +45,7 @@
       <module name="microservicecloud-provider-dept-8001 (1)" target="1.8" />
       <module name="microservicecloud-provider-dept-8002" target="1.8" />
       <module name="microservicecloud-provider-dept-8003" target="1.8" />
+      <module name="microservicecloud-provider-dept-hystrix-8001" target="1.8" />
       <module name="springcloud02" target="1.8" />
     </bytecodeTargetLevel>
   </component>

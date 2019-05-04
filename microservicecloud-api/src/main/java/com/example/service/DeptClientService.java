@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
-@FeignClient(value = "MICROSERVICECLOUDABA-DEPT")
+@FeignClient(value = "MICROSERVICECLOUDABA-DEPT",fallbackFactory=DeptClientServiceFallbackFactory.class)
 public interface DeptClientService {
 
 
